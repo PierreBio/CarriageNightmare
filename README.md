@@ -1,6 +1,9 @@
 # CarriageNightmare
 Horror game / Shoot Them Up
 
+- Unity / C#
+- 3D project with HDRP
+
 This game was made in 2.5 days for a student Game Jam at Gobelins - L'Ecole de l'Image. We had to create a shoot them up (without science fiction) playable by two players.
 
 ![image](https://user-images.githubusercontent.com/45881846/147855541-c2e1e494-17ce-491e-bd97-63e791514dd5.png)

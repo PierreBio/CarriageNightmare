@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2805454983180524927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3255212413576761205}
+  - component: {fileID: 2478305050628162302}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3255212413576761205
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2805454983180524927}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.144546, y: 2.0232887, z: 35.079266}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2478305050628162302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2805454983180524927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5543894526f5e81489668e35cb092d2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Ambiant_sound
+    audioClip: {fileID: 8300000, guid: 782d6b43a6328f146bf399fbb5bbf3cb, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.7
+    pitch: 1
+    loop: 1
+    spatialBlend: 0
+  - name: carriage
+    audioClip: {fileID: 8300000, guid: 4415a90e0f4f3fc41a0164853d744e92, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.6
+    pitch: 1
+    loop: 1
+    spatialBlend: 0
+  - name: Carriage_damage
+    audioClip: {fileID: 8300000, guid: 40658e93800edd445a62af18127c9346, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    spatialBlend: 0
+  - name: Carriage_damage_2
+    audioClip: {fileID: 8300000, guid: d87c1103c16e79647a6d6c3fc2526a35, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    spatialBlend: 0
+  - name: Die_1
+    audioClip: {fileID: 8300000, guid: cee45f64c93158d4fa31b7130d3fa35b, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    spatialBlend: 0
+  - name: Die_2
+    audioClip: {fileID: 8300000, guid: 7fe7d5e59f512ec4692a44788682c43c, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    spatialBlend: 0
+  - name: Shoot
+    audioClip: {fileID: 8300000, guid: 1afbd33a0b7bde048b3abd3b8f04de7c, type: 3}
+    audioSource: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    spatialBlend: 0
+  - name: Touched
+    audioClip: {fileID: 8300000, guid: 207fea4dd19a38647a1dc78f2873b3f3, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    spatialBlend: 0
+  - name: Win_1
+    audioClip: {fileID: 8300000, guid: 1a5a6726e2babd44e8e7abca46fc104c, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    spatialBlend: 0
+  - name: Wolf_cry
+    audioClip: {fileID: 8300000, guid: 42de2b3bbb5f33a47a79b06e5cdf5d07, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    spatialBlend: 0
+  - name: Vampire_cry_1
+    audioClip: {fileID: 8300000, guid: 77c8e70aa252ce0469c0df2a7a18cdd8, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    spatialBlend: 0
+  - name: The_wake_of_man
+    audioClip: {fileID: 8300000, guid: 0bea5a3312221434ab80db8fe6fa79ed, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.7
+    pitch: 1
+    loop: 1
+    spatialBlend: 0
+  - name: Wolf_howling
+    audioClip: {fileID: 8300000, guid: 53028e76f3cb91f40adac58f5bdf7a21, type: 3}
+    audioSource: {fileID: 0}
+    volume: 0.75
+    pitch: 1
+    loop: 0
+    spatialBlend: 0

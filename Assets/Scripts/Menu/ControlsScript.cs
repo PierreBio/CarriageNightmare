@@ -1,0 +1,18 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ControlsScript : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        StartCoroutine(DisableControlsCanvas());
+    }
+
+    IEnumerator DisableControlsCanvas()
+    {
+        yield return new WaitForSeconds(5f);
+        gameObject.SetActive(false);
+    }
+}
